@@ -36,13 +36,13 @@ def Action(data):
         text_to_speech.text_to_speech("Okay sir")
         return "Okay sir"
 
-    elif "ky saayma sabse badi wali paagal hai" in user_data:
-        text_to_speech.text_to_speech("haa na saayma  sabse badi wali paagaal hai!!!")
-        return "haa na saayma sabse badi wali paagaal h!!!"
+    elif "ky kushagra sabse bada wala paagal hai" in user_data:
+        text_to_speech.text_to_speech("haa na kushagra  sabse bada wali paagaal hai!!!")
+        return "haa na kushagra sabse bada wala paagaal h!!!"
 
-    elif "saayma sach me paagal hai naa" in user_data:
-        text_to_speech.text_to_speech("haa saayma sachhhh me paaagaal hai")
-        return "haa saayema saccchhh me paaagaal hai"
+    elif "kushagra sach me paagal hai naa" in user_data:
+        text_to_speech.text_to_speech("haa kushagra sachhhh me paaagaal hai")
+        return "haa kushagra saccchhh me paaagaal hai"
 
     elif "play naat" in user_data:
         webbrowser.open("https://youtube.com/")
@@ -66,3 +66,4 @@ def Action(data):
     else:
         text_to_speech.text_to_speech("I'm not able to understand")
         return "I'm not able to understand"
+
